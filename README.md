@@ -7,7 +7,8 @@
 
 ## 배포 URL
 
-https://thesoncriel.github.io/jordy-html/
+- **GitHub Pages**: https://thesoncriel.github.io/jordy-html/
+- **Cloudflare Pages**: https://jordy-html.theson.workers.dev
 
 ## 기술 스택
 
