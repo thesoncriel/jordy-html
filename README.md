@@ -65,6 +65,10 @@ jordy-html/
 └── README.md
 ```
 
+## 관련 링크
+
+- [죠르디 인형 구매 (다나와)](https://search.danawa.com/dsearch.php?query=%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88+%EC%A3%A0%EB%A5%B4%EB%94%94+%EC%9D%B8%ED%98%95)
+
 ## 저작권
 
 죠르디 캐릭터 및 이미지의 저작권은 [카카오](https://www.kakaocorp.com)에 있습니다.
