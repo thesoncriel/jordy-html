@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>죠르디 (JORDY) - 카카오프렌즈 니니즈</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        jordy: {
+                            50: '#e8f5e9',
+                            100: '#c8e6c9',
+                            400: '#66bb6a',
+                            500: '#4caf50',
+                            600: '#43a047',
+                            700: '#388e3c',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .fun-facts li::before {
+            content: "\1F995";
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body class="bg-jordy-50 text-gray-700 font-sans">
+
+<header class="bg-gradient-to-br from-green-400 to-jordy-400 text-center py-10 px-5 text-white">
+    <h1 class="text-4xl font-bold mb-2">죠르디 JORDY</h1>
+    <p class="text-lg opacity-90">카카오프렌즈 니니즈(NINIZ)의 사랑스러운 민트 공룡</p>
+</header>
+
+<div class="text-center py-10 px-5 bg-white">
+    <img src="./images/jordy-kv.png" alt="죠르디 키비주얼" class="max-w-xs w-full h-auto mx-auto">
+    <p class="mt-3 text-sm text-gray-400">이미지 출처: 카카오프렌즈</p>
+</div>
+
+<div class="max-w-3xl mx-auto my-8 px-5 space-y-8">
+
+    <div class="bg-white rounded-2xl p-8 shadow-md">
+        <h2 class="text-2xl font-bold text-jordy-600 mb-5 pb-2 border-b-2 border-jordy-100">프로필</h2>
+        <table class="w-full">
+            <tr class="border-b border-gray-100">
+                <th class="text-left py-3 px-4 text-jordy-400 font-semibold w-28 align-top">이름</th>
+                <td class="py-3 px-4 leading-relaxed">죠르디 (JORDY)</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+                <th class="text-left py-3 px-4 text-jordy-400 font-semibold w-28 align-top">생일</th>
+                <td class="py-3 px-4 leading-relaxed">9월 9일</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+                <th class="text-left py-3 px-4 text-jordy-400 font-semibold w-28 align-top">종류</th>
+                <td class="py-3 px-4 leading-relaxed">미니 스테고사우루스 (공룡)</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+                <th class="text-left py-3 px-4 text-jordy-400 font-semibold w-28 align-top">소속</th>
+                <td class="py-3 px-4 leading-relaxed">카카오프렌즈 니니즈 (NINIZ)</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+                <th class="text-left py-3 px-4 text-jordy-400 font-semibold w-28 align-top">성우</th>
+                <td class="py-3 px-4 leading-relaxed">양정화</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+                <th class="text-left py-3 px-4 text-jordy-400 font-semibold w-28 align-top">외형</th>
+                <td class="py-3 px-4 leading-relaxed">민트색 피부, 구불구불한 눈썹, 짧은 네 다리, 등 위의 노란 돌기(사실은 버섯!)</td>
+            </tr>
+            <tr>
+                <th class="text-left py-3 px-4 text-jordy-400 font-semibold w-28 align-top">성격</th>
+                <td class="py-3 px-4 leading-relaxed">블랙유머 가득, 짠내 나는 취준생, 하지만 성실하고 솔선수범</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="bg-white rounded-2xl p-8 shadow-md">
+        <h2 class="text-2xl font-bold text-jordy-600 mb-5 pb-2 border-b-2 border-jordy-100">소개</h2>
+        <p class="leading-loose text-gray-600">
+            죠르디는 떠내려 온 빙하에서 깨어난 공룡입니다.
+            빛나는 과거를 뒤로한 채, 지금은 취업을 꿈꾸며 하루하루를 열심히 살아가고 있어요.
+            니니마트에서 아르바이트를 하며 '이 달의 우수 사원'에 선정되기도 했답니다.
+        </p>
+        <p class="leading-loose text-gray-600 mt-4">
+            "짠내 나는 취준생"이라는 콘셉트로 청년 세대와 깊은 공감대를 형성하며,
+            니니즈 캐릭터 중 인지도 1위를 차지하고 있습니다.
+            2017년 니니즈 출시 이후 꾸준히 사랑받으며 카카오프렌즈의 대표 캐릭터로 자리 잡았어요.
+        </p>
+    </div>
+
+    <div class="bg-white rounded-2xl p-8 shadow-md">
+        <h2 class="text-2xl font-bold text-jordy-600 mb-5 pb-2 border-b-2 border-jordy-100">재미있는 사실</h2>
+        <ul class="fun-facts list-none">
+            <li class="py-2.5 pl-7 relative leading-relaxed border-b border-gray-100">등에 달린 노란 돌기는 사실 <strong>기생버섯</strong>이에요! 이 버섯이 죠르디를 조종한다는 설정이 있습니다.</li>
+            <li class="py-2.5 pl-7 relative leading-relaxed border-b border-gray-100">니니즈 캐릭터 중 관련 콘텐츠가 가장 많아요. 죠르디 TV, 죠르디 24시 등 자체 시리즈를 보유하고 있습니다.</li>
+            <li class="py-2.5 pl-7 relative leading-relaxed border-b border-gray-100">2024년에는 <strong>쬬르디</strong>라는 스핀오프 캐릭터 32종이 출시되어 세계관이 확장되었어요.</li>
+            <li class="py-2.5 pl-7 relative leading-relaxed">니니즈는 2017년 11월 14일에 카카오프렌즈 이후 5년 만에 정식 출시된 캐릭터 시리즈입니다.</li>
+        </ul>
+    </div>
+
+    <div class="bg-white rounded-2xl p-8 shadow-md">
+        <h2 class="text-2xl font-bold text-jordy-600 mb-5 pb-2 border-b-2 border-jordy-100">갤러리</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
+            <img src="./images/jordy.png" alt="죠르디 기본 이미지" class="w-full rounded-xl bg-gray-100 p-2.5">
+            <img src="./images/jordy-1.png" alt="죠르디 이미지 1" class="w-full rounded-xl bg-gray-100 p-2.5">
+            <img src="./images/jordy-2.png" alt="죠르디 이미지 2" class="w-full rounded-xl bg-gray-100 p-2.5">
+        </div>
+    </div>
+
+</div>
+
+<footer class="text-center py-8 px-5 bg-jordy-400 text-white mt-10 text-sm">
+    <p>이 페이지는 카카오프렌즈 니니즈의 죠르디를 소개하기 위해 만들어졌습니다.</p>
+    <p class="mt-1">캐릭터 및 이미지의 저작권은 <a href="https://www.kakaocorp.com" target="_blank" class="text-jordy-50 underline">카카오</a>에 있습니다.</p>
+</footer>
+
+</body>
+</html>
